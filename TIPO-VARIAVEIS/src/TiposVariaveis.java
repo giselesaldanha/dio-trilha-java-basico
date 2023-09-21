@@ -1,5 +1,5 @@
-public class App {
-    public static void main(String[] args) throws Exception {
+public class TiposVariaveis {
+    public static void main(String[] args) {
         
         //Variável do Tipo Texto
         String nome="Gisele Saldanha";
@@ -15,6 +15,7 @@ public class App {
 
         //Constante deve ser declarada com todas as letras em maiúsculo e deve ser escrito a palavra "final" no início da declaração da variável.
         final double VALOR_DE_PI = 3.14;
-		VALOR_DE_PI=3.15;
+
+        System.out.println("OK!");
     }
 }
